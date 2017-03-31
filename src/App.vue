@@ -1,14 +1,16 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
-    <router-view></router-view>
-    <my-component></my-component>
+    <router-link to="/HelloWorld"></router-link>
+    <router-link to="/MyVuex"></router-link>
+    <router-view>
+    </router-view>
   </div>
 </template>
 
 <script>
-  export default {
-    name: 'app'
+export default {
+    name: 'app',
   }
 </script>
 
