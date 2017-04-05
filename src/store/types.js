@@ -1,4 +1,5 @@
 export default {
   doAdd:'doAdd',
-  doMinus:'doMinus'
+  doMinus:'doMinus',
+  dataList:'dataList'
 }

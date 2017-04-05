@@ -1,14 +1,15 @@
 import types from './types'
 
 export default {
-  [types.doAdd]({
-    commit
-  }) {
+  [types.doAdd](commit) {
     commit(types.doAdd)
   },
-  [types.doMinus]({
-    commit
-  }){
+  [types.doMinus]({commit}){
     commit(types.doMinus)
+  },
+  [types.dataList]({commit}) {
+    commit(types.dataList)
   }
 }
+
+
